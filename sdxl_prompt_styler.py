@@ -50,7 +50,7 @@ def read_sdxl_templates_replace_and_combine(json_data, template_name, positive_p
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
-
+# MISC
 class SDXLPromptStylerMisc:
 
     def __init__(self):
@@ -99,6 +99,7 @@ class SDXLPromptStylerMisc:
 
         return positive_prompt, negative_prompt
 
+# NODE ALL
 class SDXLPromptStylerAll:
 
     def __init__(self):
@@ -168,7 +169,7 @@ class SDXLPromptStylerAll:
 
         return positive_prompt, negative_prompt, dummy_change   # Include dummy_change to trigger execution
         
-
+# HORROR
 class SDXLPromptStylerHorror:
 
     def __init__(self):
@@ -217,6 +218,7 @@ class SDXLPromptStylerHorror:
 
         return positive_prompt, negative_prompt
 
+# BY ARTIST
 class SDXLPromptStylerbyArtist:
 
     def __init__(self):
@@ -265,6 +267,7 @@ class SDXLPromptStylerbyArtist:
 
         return positive_prompt, negative_prompt
 
+# FOCUS
 class SDXLPromptStylerbyFocus:
 
     def __init__(self):
@@ -313,6 +316,7 @@ class SDXLPromptStylerbyFocus:
 
         return positive_prompt, negative_prompt
 
+# THEME
 class SDXLPromptStylerbyTheme:
 
     def __init__(self):
@@ -361,6 +365,7 @@ class SDXLPromptStylerbyTheme:
 
         return positive_prompt, negative_prompt
 
+# Environment
 class SDXLPromptStylerbyEnvironment:
 
     def __init__(self):
@@ -409,6 +414,7 @@ class SDXLPromptStylerbyEnvironment:
 
         return positive_prompt, negative_prompt
 
+# MOOD
 class SDXLPromptStylerbyMood:
 
     def __init__(self):
@@ -457,6 +463,7 @@ class SDXLPromptStylerbyMood:
 
         return positive_prompt, negative_prompt
 
+# SUBJECT
 class SDXLPromptStylerbySubject:
 
     def __init__(self):
@@ -505,6 +512,7 @@ class SDXLPromptStylerbySubject:
 
         return positive_prompt, negative_prompt
 
+# TIMEofDAY
 class SDXLPromptStylerbyTimeofDay:
 
     def __init__(self):
@@ -553,6 +561,7 @@ class SDXLPromptStylerbyTimeofDay:
 
         return positive_prompt, negative_prompt
 
+# CAMERA
 class SDXLPromptStylerbyCamera:
 
     def __init__(self):
@@ -601,6 +610,7 @@ class SDXLPromptStylerbyCamera:
 
         return positive_prompt, negative_prompt
 
+# COMPOSITION
 class SDXLPromptStylerbyComposition:
 
     def __init__(self):
@@ -649,6 +659,7 @@ class SDXLPromptStylerbyComposition:
 
         return positive_prompt, negative_prompt
 
+# LIGHTING
 class SDXLPromptStylerbyLighting:
 
     def __init__(self):
@@ -697,6 +708,7 @@ class SDXLPromptStylerbyLighting:
 
         return positive_prompt, negative_prompt
 
+# DEPTH
 class SDXLPromptStylerbyDepth:
 
     def __init__(self):
@@ -745,6 +757,7 @@ class SDXLPromptStylerbyDepth:
 
         return positive_prompt, negative_prompt
 
+# FILTER
 class SDXLPromptStylerbyFilter:
 
     def __init__(self):
@@ -793,6 +806,7 @@ class SDXLPromptStylerbyFilter:
 
         return positive_prompt, negative_prompt
 
+# ORIGINAL
 class SDXLPromptStylerbyOriginal:
 
     def __init__(self):
@@ -841,6 +855,7 @@ class SDXLPromptStylerbyOriginal:
 
         return positive_prompt, negative_prompt
 
+# MileHigh
 class SDXLPromptStylerbyMileHigh:
 
     def __init__(self):
@@ -889,6 +904,7 @@ class SDXLPromptStylerbyMileHigh:
 
         return positive_prompt, negative_prompt
         
+# FANTASY
 class SDXLPromptStylerbyFantasySetting:
 
     def __init__(self):
@@ -937,6 +953,7 @@ class SDXLPromptStylerbyFantasySetting:
 
         return positive_prompt, negative_prompt
 
+# Mythical Creatures
 class SDXLPromptStylerbyMythicalCreature:
 
     def __init__(self):
@@ -984,6 +1001,8 @@ class SDXLPromptStylerbyMythicalCreature:
             print(f"negative_prompt: {negative_prompt}")
 
         return positive_prompt, negative_prompt
+
+# Surrealism
 class SDXLPromptStylerbySurrealism:
 
     def __init__(self):
@@ -1032,7 +1051,7 @@ class SDXLPromptStylerbySurrealism:
 
         return positive_prompt, negative_prompt
 
-
+# Impressionism
 class SDXLPromptStylerbyImpressionism:
 
     def __init__(self):
@@ -1081,6 +1100,7 @@ class SDXLPromptStylerbyImpressionism:
 
         return positive_prompt, negative_prompt
 
+# CyberPunk Surrealism
 class SDXLPromptStylerbyCyberpunkSurrealism:
 
     def __init__(self):
@@ -1129,6 +1149,7 @@ class SDXLPromptStylerbyCyberpunkSurrealism:
 
         return positive_prompt, negative_prompt
 
+# Quantum Surrealism
 class SDXLPromptStylerbyQuantumRealism:
 
     def __init__(self):
@@ -1177,6 +1198,7 @@ class SDXLPromptStylerbyQuantumRealism:
 
         return positive_prompt, negative_prompt
 
+# SteamPunk Realism
 class SDXLPromptStylerbySteamPunkRealism:
 
     def __init__(self):
@@ -1225,6 +1247,7 @@ class SDXLPromptStylerbySteamPunkRealism:
 
         return positive_prompt, negative_prompt
 
+# Wyvern
 class SDXLPromptStylerbyWyvern:
 
     def __init__(self):
@@ -1272,7 +1295,8 @@ class SDXLPromptStylerbyWyvern:
             print(f"negative_prompt: {negative_prompt}")
 
         return positive_prompt, negative_prompt
-        
+
+# DOUBLON ?
 class SDXLPromptStylerbyWyvern:
 
     def __init__(self):
@@ -1321,6 +1345,7 @@ class SDXLPromptStylerbyWyvern:
 
         return positive_prompt, negative_prompt
 
+# Gothic Revival
 class SDXLPromptbyGothicRevival:
 
     def __init__(self):
@@ -1369,6 +1394,7 @@ class SDXLPromptbyGothicRevival:
 
         return positive_prompt, negative_prompt
 
+# Celtic ART
 class SDXLPromptbyCelticArt:
 
     def __init__(self):
@@ -1417,6 +1443,7 @@ class SDXLPromptbyCelticArt:
 
         return positive_prompt, negative_prompt
 
+# Irisih folk art
 class SDXLPromptbyIrishFolkArt:
 
     def __init__(self):
@@ -1465,6 +1492,7 @@ class SDXLPromptbyIrishFolkArt:
 
         return positive_prompt, negative_prompt
 
+# SportART
 class SDXLPromptbySportsArt:
 
     def __init__(self):
@@ -1513,6 +1541,7 @@ class SDXLPromptbySportsArt:
 
         return positive_prompt, negative_prompt
 
+# Fashion Art
 class SDXLPromptbyFashionArt:
 
     def __init__(self):
@@ -1561,6 +1590,7 @@ class SDXLPromptbyFashionArt:
 
         return positive_prompt, negative_prompt
 
+# WildLife ART
 class SDXLPromptbyWildlifeArt:
 
     def __init__(self):
@@ -1609,6 +1639,7 @@ class SDXLPromptbyWildlifeArt:
 
         return positive_prompt, negative_prompt
 
+# Street Art
 class SDXLPromptbyStreetArt:
 
     def __init__(self):
@@ -1657,6 +1688,7 @@ class SDXLPromptbyStreetArt:
 
         return positive_prompt, negative_prompt
 
+# VikingArt
 class SDXLPromptbyVikingArt:
 
     def __init__(self):
@@ -1705,6 +1737,7 @@ class SDXLPromptbyVikingArt:
 
         return positive_prompt, negative_prompt
 
+# romantic nationalism
 class SDXLPromptbyRomanticNationalismArt:
 
     def __init__(self):
@@ -1753,6 +1786,7 @@ class SDXLPromptbyRomanticNationalismArt:
 
         return positive_prompt, negative_prompt
 
+# ContemporaryNordicAr
 class SDXLPromptbyContemporaryNordicArt:
 
     def __init__(self):
@@ -1801,6 +1835,7 @@ class SDXLPromptbyContemporaryNordicArt:
 
         return positive_prompt, negative_prompt
 
+# IcelandicContemporaryArt
 class SDXLPromptbyIcelandicContemporaryArt:
 
     def __init__(self):
@@ -1847,7 +1882,7 @@ class SDXLPromptbyIcelandicContemporaryArt:
 
         return positive_prompt, negative_prompt, style
 
-
+# NOMMMER LES NOEUDS
 
 NODE_CLASS_MAPPINGS = {
     "SDXLPromptStylerAll": SDXLPromptStylerAll,
