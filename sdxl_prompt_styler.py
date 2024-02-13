@@ -80,7 +80,8 @@ class SDXLPromptStylerMisc:
     RETURN_TYPES = ('STRING','STRING',)
     RETURN_NAMES = ('positive_prompt_text_g','negative_prompt_text_g',)
     FUNCTION = 'prompt_styler'
-    CATEGORY = 'Style Prompts'
+    CATEGORY = 'MK Style Prompts'
+    # Nom catégorie noueds dans menu contextuel
 
     def prompt_styler(self, text_positive, text_negative, style, log_prompt):
         # Process and combine prompts in templates
