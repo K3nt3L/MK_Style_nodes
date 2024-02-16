@@ -111,7 +111,7 @@ class SDXLPromptStylerMisc:
 # ---------------------------------------------------------------------------------------------
 # NODES LIST
 # --------------------------------------------------------------------------------------------
-# ALL
+# ALL sdxl_styles_all.json
 # _____________________________________________________________________________________________
 #
 class SDXLPromptStylerAll:
@@ -237,7 +237,7 @@ class SDXLPromptStylerHorror:
         return positive_prompt, negative_prompt
 
 #
-# BY ARTIST
+# BY ARTIST sdxl_styles_artists.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyArtist:
@@ -497,7 +497,7 @@ class SDXLPromptStylerbyMood:
         return positive_prompt, negative_prompt
 
 #
-# SUBJECT
+# SUBJECT sdxl_styles_subject.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbySubject:
@@ -601,7 +601,7 @@ class SDXLPromptStylerbyTimeofDay:
         return positive_prompt, negative_prompt
 
 #
-# CAMERA
+# CAMERA sdxl_styles_camera.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyCamera:
@@ -705,7 +705,7 @@ class SDXLPromptStylerbyComposition:
         return positive_prompt, negative_prompt
 
 #
-# LIGHTING
+# LIGHTING sdxl_styles_lighting.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyLighting:
@@ -965,7 +965,7 @@ class SDXLPromptStylerbyMileHigh:
         return positive_prompt, negative_prompt
         
 #
-# FANTASY
+# FANTASY 
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyFantasySetting:
@@ -1017,7 +1017,7 @@ class SDXLPromptStylerbyFantasySetting:
         return positive_prompt, negative_prompt
 
 #
-# Mythical Creatures
+# Mythical Creatures 
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyMythicalCreature:
@@ -1329,7 +1329,7 @@ class SDXLPromptStylerbySteamPunkRealism:
         return positive_prompt, negative_prompt
 
 #
-# Wyvern
+# Wyvern sdxl_styles_wyvern.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyWyvern:
@@ -1381,7 +1381,7 @@ class SDXLPromptStylerbyWyvern:
         return positive_prompt, negative_prompt
 
 #
-# DOUBLON ?
+# DOUBLON ? sdxl_styles_wyvern.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyWyvern:
@@ -1485,7 +1485,7 @@ class SDXLPromptbyGothicRevival:
         return positive_prompt, negative_prompt
 
 #
-# Celtic ART
+# Celtic ART 
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyCelticArt:
