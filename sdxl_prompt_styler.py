@@ -51,6 +51,8 @@ def read_sdxl_templates_replace_and_combine(json_data, template_name, positive_p
         print(f"An error occurred: {str(e)}")
 
 # MISC
+# _____________________________________________________________________________________________________________
+#
 class SDXLPromptStylerMisc:
 
     def __init__(self):
@@ -81,7 +83,10 @@ class SDXLPromptStylerMisc:
     RETURN_NAMES = ('positive_prompt_text_g','negative_prompt_text_g',)
     FUNCTION = 'prompt_styler'
     CATEGORY = 'MK Style Prompts'
+    #
     # Nom catégorie noueds dans menu contextuel
+    # _____________________________________________________________________________________________________________
+    #
 
     def prompt_styler(self, text_positive, text_negative, style, log_prompt):
         # Process and combine prompts in templates
@@ -170,7 +175,11 @@ class SDXLPromptStylerAll:
 
         return positive_prompt, negative_prompt, dummy_change   # Include dummy_change to trigger execution
         
+#
 # HORROR
+# _____________________________________________________________________________________________________________
+#
+
 class SDXLPromptStylerHorror:
 
     def __init__(self):
@@ -219,7 +228,10 @@ class SDXLPromptStylerHorror:
 
         return positive_prompt, negative_prompt
 
+#
 # BY ARTIST
+# _____________________________________________________________________________________________________________
+#
 class SDXLPromptStylerbyArtist:
 
     def __init__(self):
@@ -268,7 +280,10 @@ class SDXLPromptStylerbyArtist:
 
         return positive_prompt, negative_prompt
 
+#
 # FOCUS
+# _____________________________________________________________________________________________________________
+#
 class SDXLPromptStylerbyFocus:
 
     def __init__(self):
@@ -317,7 +332,10 @@ class SDXLPromptStylerbyFocus:
 
         return positive_prompt, negative_prompt
 
+#
 # THEME
+# _____________________________________________________________________________________________________________
+#
 class SDXLPromptStylerbyTheme:
 
     def __init__(self):
@@ -366,7 +384,10 @@ class SDXLPromptStylerbyTheme:
 
         return positive_prompt, negative_prompt
 
+#
 # Environment
+# _____________________________________________________________________________________________________________
+#
 class SDXLPromptStylerbyEnvironment:
 
     def __init__(self):
@@ -415,7 +436,10 @@ class SDXLPromptStylerbyEnvironment:
 
         return positive_prompt, negative_prompt
 
+#
 # MOOD
+# _____________________________________________________________________________________________________________
+#
 class SDXLPromptStylerbyMood:
 
     def __init__(self):
@@ -464,7 +488,10 @@ class SDXLPromptStylerbyMood:
 
         return positive_prompt, negative_prompt
 
+#
 # SUBJECT
+# _____________________________________________________________________________________________________________
+#
 class SDXLPromptStylerbySubject:
 
     def __init__(self):
