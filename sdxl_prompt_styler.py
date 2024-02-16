@@ -50,6 +50,8 @@ def read_sdxl_templates_replace_and_combine(json_data, template_name, positive_p
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
+# _____________________________________________________________________________________________________________
+#
 # MISC
 # _____________________________________________________________________________________________________________
 #
@@ -84,7 +86,7 @@ class SDXLPromptStylerMisc:
     FUNCTION = 'prompt_styler'
     CATEGORY = 'MK Style Prompts'
     #
-    # Nom catégorie noueds dans menu contextuel
+    # 
     # _____________________________________________________________________________________________________________
     #
 
@@ -105,7 +107,13 @@ class SDXLPromptStylerMisc:
 
         return positive_prompt, negative_prompt
 
-# NODE ALL
+
+# ---------------------------------------------------------------------------------------------
+# NODES LIST
+# --------------------------------------------------------------------------------------------
+# ALL
+# _____________________________________________________________________________________________
+#
 class SDXLPromptStylerAll:
 
     def __init__(self):
