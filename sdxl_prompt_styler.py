@@ -52,7 +52,7 @@ def read_sdxl_templates_replace_and_combine(json_data, template_name, positive_p
 
 # _____________________________________________________________________________________________________________
 #
-# MISC sdxl_styles_wyvern.json
+# MISC sdxl_styles_misc.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerMisc:
@@ -85,6 +85,8 @@ class SDXLPromptStylerMisc:
     RETURN_NAMES = ('positive_prompt_text_g','negative_prompt_text_g',)
     FUNCTION = 'prompt_styler'
     CATEGORY = 'MK Style Prompts'
+    #
+    # _____________________________________________________________________________________________________________
     #
     # MK à faire
     # _____________________________________________________________________________________________________________
@@ -182,7 +184,7 @@ class SDXLPromptStylerAll:
         return positive_prompt, negative_prompt, dummy_change   # Include dummy_change to trigger execution
         
 #
-# HORROR sdxl_styles_wyvern.json
+# HORROR sdxl_styles_horror.json
 # _____________________________________________________________________________________________________________
 #
 
@@ -287,7 +289,7 @@ class SDXLPromptStylerbyArtist:
         return positive_prompt, negative_prompt
 
 #
-# FOCUS sdxl_styles_wyvern.json
+# FOCUS sdxl_styles_focus.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyFocus:
@@ -339,7 +341,7 @@ class SDXLPromptStylerbyFocus:
         return positive_prompt, negative_prompt
 
 #
-# THEME sdxl_styles_wyvern.json
+# THEME sdxl_styles_themes.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyTheme:
@@ -391,7 +393,7 @@ class SDXLPromptStylerbyTheme:
         return positive_prompt, negative_prompt
 
 #
-# Environment sdxl_styles_wyvern.json
+# Environment sdxl_styles_environment.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyEnvironment:
@@ -443,7 +445,7 @@ class SDXLPromptStylerbyEnvironment:
         return positive_prompt, negative_prompt
 
 #
-# MOOD sdxl_styles_wyvern.json
+# MOOD sdxl_styles_mood.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyMood:
@@ -547,7 +549,7 @@ class SDXLPromptStylerbySubject:
         return positive_prompt, negative_prompt
 
 #
-# TIMEofDAY sdxl_styles_wyvern.json
+# TIMEofDAY sdxl_styles_tod.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyTimeofDay:
@@ -651,7 +653,7 @@ class SDXLPromptStylerbyCamera:
         return positive_prompt, negative_prompt
 
 #
-# COMPOSITION sdxl_styles_wyvern.json
+# COMPOSITION sdxl_styles_composition.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyComposition:
@@ -807,7 +809,7 @@ class SDXLPromptStylerbyDepth:
         return positive_prompt, negative_prompt
 
 #
-# FILTER sdxl_styles_wyvern.json
+# FILTER sdxl_styles_filter.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyFilter:
@@ -1171,7 +1173,7 @@ class SDXLPromptStylerbyImpressionism:
         return positive_prompt, negative_prompt
 
 #
-# CyberPunk Surrealism
+# CyberPunkSurrealism sdxl_styles_cs
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyCyberpunkSurrealism:
@@ -1223,7 +1225,7 @@ class SDXLPromptStylerbyCyberpunkSurrealism:
         return positive_prompt, negative_prompt
 
 #
-# Quantum Surrealism
+# Quantum Surrealism sdxl_styles_qr.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbyQuantumRealism:
@@ -1275,7 +1277,7 @@ class SDXLPromptStylerbyQuantumRealism:
         return positive_prompt, negative_prompt
 
 #
-# SteamPunk Realism
+# SteamPunk Realism sdxl_styles_sr.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptStylerbySteamPunkRealism:
@@ -1431,7 +1433,7 @@ class SDXLPromptStylerbyWyvern:
         return positive_prompt, negative_prompt
 
 #
-# Gothic Revival
+# Gothic Revival sdxl_styles_gothrev.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyGothicRevival:
@@ -1483,7 +1485,7 @@ class SDXLPromptbyGothicRevival:
         return positive_prompt, negative_prompt
 
 #
-# Celtic ART 
+# Celtic ART sdxl_styles_celticart.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyCelticArt:
@@ -1535,7 +1537,7 @@ class SDXLPromptbyCelticArt:
         return positive_prompt, negative_prompt
 
 #
-# Irisih folk art
+# Irisih folk art sdxl_styles_irishfolkart.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyIrishFolkArt:
@@ -1587,7 +1589,7 @@ class SDXLPromptbyIrishFolkArt:
         return positive_prompt, negative_prompt
 
 #
-# SportART
+# SportART sdxl_styles_sports.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbySportsArt:
@@ -1639,7 +1641,7 @@ class SDXLPromptbySportsArt:
         return positive_prompt, negative_prompt
 
 #
-# Fashion Art
+# Fashion Art sdxl_styles_fashion.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyFashionArt:
@@ -1691,7 +1693,7 @@ class SDXLPromptbyFashionArt:
         return positive_prompt, negative_prompt
 
 #
-# WildLife ART
+# WildLife ART sdxl_styles_wildlife.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyWildlifeArt:
@@ -1743,7 +1745,7 @@ class SDXLPromptbyWildlifeArt:
         return positive_prompt, negative_prompt
 
 #
-# Street Art
+# Street Art sdxl_styles_street.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyStreetArt:
@@ -1795,7 +1797,7 @@ class SDXLPromptbyStreetArt:
         return positive_prompt, negative_prompt
 
 #
-# VikingArt
+# VikingArt sdxl_styles_viking.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyVikingArt:
@@ -1847,7 +1849,7 @@ class SDXLPromptbyVikingArt:
         return positive_prompt, negative_prompt
 
 #
-# romantic nationalism
+# romantic nationalism sdxl_styles_romanticnat.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyRomanticNationalismArt:
@@ -1899,7 +1901,7 @@ class SDXLPromptbyRomanticNationalismArt:
         return positive_prompt, negative_prompt
 
 #
-# ContemporaryNordicAr
+# ContemporaryNordicAr sdxl_styles_contempnordic.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyContemporaryNordicArt:
@@ -1951,7 +1953,7 @@ class SDXLPromptbyContemporaryNordicArt:
         return positive_prompt, negative_prompt
 
 #
-# IcelandicContemporaryArt
+# IcelandicContemporaryArt sdxl_styles_all.json
 # _____________________________________________________________________________________________________________
 #
 class SDXLPromptbyIcelandicContemporaryArt:
